@@ -3,4 +3,78 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
+
+.header, .about{
+    background-color: #1F2937;
+    display: flex;
+}
+
+
+.header{
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0px;
+    padding: 0px 20px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0px 0px;
+}
+
+.menu a, .about p{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7E8;
+}
+
+.logo, h1{
+    color: #F9FAF8;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.about{
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#aboutsection{
+    max-width: 300px;
+    flex: 0 1 auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#aboutsection .signupbtn{
+    align-self: center;
+}
+
+.signupbtn{
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    border-style: none;
+}
+
+
