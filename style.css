@@ -7,6 +7,11 @@ body{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .header, .about{
     background-color: #1F2937;
     display: flex;
@@ -16,7 +21,7 @@ body{
 .header{
     justify-content: space-around;
     align-items: center;
-    padding: 0px 20px 30px 20px ;
+    padding: 0px 20px;
 }
 
 .menu{
@@ -27,13 +32,13 @@ body{
     padding: 0px 0px;
 }
 
-.menu a, .about p{
+.menu a, .about #des{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7E8;
 }
 
-.logo, h1{
+.logo, #aboutsection h1{
     color: #F9FAF8;
 }
 
@@ -42,7 +47,7 @@ body{
     font-weight: 400;
 }
 
-h1{
+#aboutsection h1{
     font-size: 48px;
     font-weight: 900;
     margin: 0;
@@ -51,7 +56,7 @@ h1{
 .about{
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    padding: 100px;
 }
 
 #aboutsection{
@@ -74,10 +79,82 @@ h1{
     border-style: none;
 }
 
-img{
+.about img{
     height: 250px;
     width: auto;
     border-radius: 5px;
+    flex: 0 0 auto;
 }
 
+.mainimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.caption{
+    font-size: 14px;
+    color: inherit;
+    opacity: 40%;
+    margin-bottom: 2px;
+}
+
+.gallery h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.gallery{
+    margin: 20px 0 100px 0;
+}
+
+.galleryctnr{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 0 50px;
+    flex: 1 1 auto;
+}
+
+.galleryctnr img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 3px solid #3882F6;
+    box-shadow: 0px 2px 2px 0px black;
+    flex: 0 1 auto;
+    object-fit: cover;
+}
+
+.example{
+    max-width: 250px;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    flex: 0 1 auto;
+}
+
+.example p{
+    margin: 0;
+    flex: 0 1 auto;
+}
+
+.example .caption{
+    font-size: 10px;
+    flex-shrink: 3;
+}
+
+.vision{
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 120px;
+    font-size: 36px;
+    font-weight: 400px;
+}
 
