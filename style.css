@@ -1,3 +1,6 @@
 body{
     font-family: roboto, cambria;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
