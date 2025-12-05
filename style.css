@@ -35,7 +35,7 @@ a{
 .menu a, .about #des{
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7E8;
+    color: #E5E7EB;
 }
 
 .logo, #aboutsection h1{
@@ -202,4 +202,11 @@ a{
     font-size: 18px;
     font-weight: 700;
     border-radius: 8px;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 40px;
+    color: #E5E7EB;
 }
