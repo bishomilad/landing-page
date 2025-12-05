@@ -103,10 +103,11 @@ a{
 .gallery h1{
     text-align: center;
     margin: 20px;
+    margin-bottom: 30px;
 }
 
 .gallery{
-    margin: 20px 0 100px 0;
+    margin: 20px 0 130px 0;
 }
 
 .galleryctnr{
@@ -116,6 +117,9 @@ a{
     align-items: center;
     padding: 0 50px;
     flex: 1 1 auto;
+    flex-wrap: wrap;
+    margin: auto;
+    
 }
 
 .galleryctnr img{
@@ -166,4 +170,36 @@ a{
 
 .quoter{
     text-align: right;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+.callbar{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    border-radius: 8px;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.callbar h3{
+    font-size: 25px;
+}
+
+.callbar button{
+    max-width: 120px;
+    border: 2px solid #F9FAF8;
+    flex: 1 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
 }
