@@ -1,2 +1,19 @@
-# landing-page
-A landing page project from the Foundations path in The Odin Project
+# Landing Page
+
+The second project of **[The Odin Project](https://www.theodinproject.com/)** a landing page website of an imaginary towel brand "Gimbo's". It is a practice on _Flexible Box Layout_.
+
+## Features
+
+- Clean UI
+- Appealing color pallete scheme
+- Good Layout distribution
+
+## Learned Outcomes
+
+- HTML basics
+
+- CSS principles
+
+- General styling
+
+- UI Design
