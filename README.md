@@ -1,6 +1,7 @@
 # Landing Page
 
 The second project of **[The Odin Project](https://www.theodinproject.com/)** a landing page website of an imaginary towel brand "Gimbo's". It is a practice on _Flexible Box Layout_.
+You can try it **[here](https://bishomilad.github.io/landing-page/)**
 
 ## Features
 
